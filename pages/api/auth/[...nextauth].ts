@@ -38,10 +38,10 @@ const options = {
     //   },
     //   from: process.env.EMAIL_FROM,
     // }),
-    // GoogleProvider({
-    //   clientId: process.env.GOOGLE_CLIENT_ID,
-    //   clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    // }),
+    GoogleProvider({
+       clientId: process.env.GOOGLE_CLIENT_ID,
+       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+     }),
     // Client({
     //   apiKey: process.env.LISTEN_API_KEY || null,
     // })
